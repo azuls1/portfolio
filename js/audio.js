@@ -4,14 +4,14 @@ const audioControlText = document.getElementById('audio-control-text');
 let isPlaying = false;
 
 const songs = [
-    { src: 'music/shameful.mp3', title: 'leverfall - shameful' },
-    { src: 'music/salem.mp3', title: 'leverfall - burning in salem' },
-    { src: 'music/june8.mp3', title: 'leverfall - my life changed on june 8th' },
-    { src: 'music/option.mp3', title: 'leverfall - accessory like option' },
-    { src: 'music/444.mp3', title: 'leverfall - rom444nce' },
-    { src: 'music/care.mp3', title: 'leverfall - not a care in the world' },
-    { src: 'music/d00m.mp3', title: 'leverfall - freed00m' },
-    { src: 'music/understand.mp3', title: 'leverfall - u have to understand' }
+    { src: 'music/indie/shameful.mp3', title: 'leverfall - shameful' },
+    { src: 'music/indie/salem.mp3', title: 'leverfall - burning in salem' },
+    { src: 'music/indie/june.mp3', title: 'leverfall - my life changed on june 8th' },
+    { src: 'music/melodramatic/accessory.mp3', title: 'leverfall - accessory like option' },
+    { src: 'music/indie/romance.mp3', title: 'leverfall - rom444nce' },
+    { src: 'music/indie/nacitw.mp3', title: 'leverfall - not a care in the world' },
+    { src: 'music/indie/freedom.mp3', title: 'leverfall - freed00m' },
+    { src: 'music/indie/understand.mp3', title: 'leverfall - u have to understand' }
 ];
 let currentSongIndex = 0;
 
