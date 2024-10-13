@@ -123,3 +123,38 @@ body {
 .audio-control i:hover {
     color: #fff;
 }
+
+.volume-slider {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+    appearance: none;
+    height: 6px;
+    background: #bbb;
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+.volume-slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.volume-slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.volume-slider:hover {
+    background: #fff;
+}
