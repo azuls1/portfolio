@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>azul's homeland</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="icon" href="media/azul.png">
+    <link rel="shortcut icon" href="media/azul.ico">
+    <meta name="description" content="azul, medium knowledge">
+    <meta property="og:title" content="azul">
+    <meta property="og:description" content="azul, medium knowledge">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="blackout" onclick="enterSite()">click to enter :D</div>
+    <div class="profile-card">
+        <img src="media/pic.png" alt="azul's pfp :D">
+        <h2>hey, im azul</h2>
+        <p>medium knowledge</p>
+        <div class="icons">
+            <a href="#" class="icon" data-url="https://github.com/azuls1" data-site="github.com"><i class='bx bxl-github'></i></a>
+            <a href="#" class="icon" data-url="https://discord.com/users/1220590891614601246" data-site="discord.com"><i class='bx bxl-discord'></i></a>
+            <a href="#" class="icon" data-url="https://steamcommunity.com/id/a2ul" data-site="steamcommunity.com"><i class='bx bxl-steam'></i></a>
+        </div>
+        <div class="audio-control" id="audio-control-text">
+            <i class='bx bx-pause' id="audio-control-icon" onclick="toggleAudio()"></i>
+            leverfall - shameful
+        </div>
+    </div>
+    <audio id="background-music" preload="auto"></audio>
+    <div class="confirmation-box" id="confirmation-box">
+        <h2 id="confirmation-title">hey there!</h2>
+        <p id="confirmation-text"></p>
+        <div class="confirmation-buttons">
+            <button id="confirm-yes">yes</button>
+            <button id="confirm-no">no</button>
+        </div>
+    </div>
+    <script src="js/particles.js" defer></script>
+    <script src="js/scripts.js" defer></script>
+</body>
+</html>
